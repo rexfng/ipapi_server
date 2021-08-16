@@ -1,12 +1,12 @@
 {
-  "name": "Captcha Server",
-  "description": "A easy to deploy captcha server template",
-  "repository": "https://github.com/rexfng/captcha-server",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/260px-RecaptchaLogo.svg.png",
+  "name": "IPAPI Server",
+  "description": "A easy to deploy IPAPI server template",
+  "repository": "https://github.com/rexfng/ipapi-server",
+  "logo": "https://ipapi.com/site_images/ipapi_logo_white.png",
   "keywords": ["node", "express", "static"],
   "env": {
-    "CAPTCHA_SECRET": {
-      "description": "Use this secret key for communication between your site and reCAPTCHA.",
+    "IPAPI_API_KEY": {
+      "description": "Use this secret key for communication between your site and IPAPI.",
       "required": true
     }
   }
